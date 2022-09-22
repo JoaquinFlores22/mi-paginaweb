@@ -1,0 +1,406 @@
+[
+  {
+    "id": 1,
+    "nombre": "jordan 23",
+    "tipo": "zapatilla",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "67200",
+    "talle": "39",
+    "foto": "./img/jordan/connor-houtman-VxzlyJk-2to-unsplash.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "jordan 1",
+    "tipo": "zapatilla",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "67200",
+    "talle": "38",
+    "foto": "./img/jordan/danilo-capece-NoVnXXmDNi0-unsplash.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "jordan 4 retro",
+    "tipo": "zapatilla",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "67200",
+    "talle": "40",
+    "foto": "./img/jordan/denis-marosan-q35zYDIJSjo-unsplash.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "jordan 11",
+    "tipo": "zapatilla",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "67200",
+    "talle": "38",
+    "foto": "./img/jordan/dusan-jovic-ZqkJoGoRoJY-unsplash.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "jordan 1 ",
+    "tipo": "zapatilla",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "67200",
+    "talle": "37",
+    "foto": "./img/jordan/giorgio-trovato-LV_4qM5Gf9c-unsplash.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "jordan 23 ",
+    "tipo": "zapatilla",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "67200",
+    "talle": "39",
+    "foto": "./img/jordan/jan-vlacuha-92_wMoF-yds-unsplash.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "jordan 1 ",
+    "tipo": "zapatilla",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "67200",
+    "talle": "40",
+    "foto": "./img/jordan/mark-broadhead-mP8cSogl11k-unsplash.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "jordan 4 retro ",
+    "tipo": "zapatilla",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "67200",
+    "talle": "31",
+    "foto": "./img/jordan/satria-aditya-f8vEFZ7yPuY-unsplash.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "jordan 11 ",
+    "tipo": "zapatilla",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "67200",
+    "talle": "37",
+    "foto": "./img/jordan/taylor-smith-Mh8DaC36FQo-unsplash.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "jordan 1 ",
+    "tipo": "zapatilla",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "67200",
+    "talle": "39",
+    "foto": "./img/jordan/travis-essinger-iOv3CqiZLtE-unsplash.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "buzo overside",
+    "tipo": "buzo",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "$7.200",
+    "talle": "s",
+    "foto": "../img/buzos/velvet.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "buzo overside",
+    "tipo": "buzo",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "5.300",
+    "talle": "M",
+    "foto": "./img/buzos/flame.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "buzo overside",
+    "tipo": "buzo",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "3.500",
+    "talle": "L",
+    "foto": "./img/buzos/sakura.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "buzo overside",
+    "tipo": "buzo",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "4.800",
+    "talle": "XL",
+    "foto": "./img/buzos/blanco.jpg"
+  },
+  {
+   "id": 15,
+   "nombre": "buzo overside",
+   "tipo": "buzo",
+   "cantidad": 10,
+   "desc": "las mas facheras de jazstina",
+   "precio": "7.840",
+   "talle": "XL",
+   "foto":"./img/buzos/ninja.jpg"
+  },
+  {
+   "id": 16,
+   "nombre": "buzo overside",
+   "tipo": "buzo",
+   "cantidad": 10,
+   "desc": "las mas facheras de jazstina",
+   "precio": "7.200",
+   "talle": "XL",
+   "foto": "./img/buzos/acid.jpg"
+  },
+  {
+   "id": 17,
+   "nombre": "buzo overside",
+   "tipo": "buzo",
+   "cantidad": 10,
+   "desc": "las mas facheras de jazstina",
+   "precio": "5.300",
+   "talle": "XL",
+   "foto": "./img/buzos/amarilo.jpg"
+  },
+  {
+   "id": 18,
+   "nombre": "buzo overside",
+   "tipo": "buzo",
+   "cantidad": 10,
+   "desc": "las mas facheras de jazstina",
+   "precio": "6.500",
+   "talle": "XL",
+   "foto": "./img/buzos/oni.jpg"
+  },
+  {
+   "id": 19,
+   "nombre": "buzo overside",
+   "tipo": "buzo",
+   "cantidad": 10,
+   "desc": "las mas facheras de jazstina",
+   "precio": "5.300",
+   "talle": "XL",
+   "foto": "./img/buzos/gris.jpg"
+  },
+  {
+    "id": 20,
+    "nombre": "buzo overside",
+    "tipo": "buzo",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "5.300",
+   " talle": "XL",
+    "foto": "./img/buzos/buzoNegro.jpg"
+  },
+
+
+  {
+    "id": 21,
+    "nombre": "Pantalon Cargo",
+    "tipo": "pantalono",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "8.200",
+    "talle": "s",
+    "foto": "./img/pantalones/blanco.jpg"
+  },
+  {
+    "id": 22,
+    "nombre": "Pantalon Cargo",
+   "tipo": "pantalon",
+   "cantidad": 10,
+   "desc": "las mas facheras de jazstina",
+  "precio": "9.300",
+   "talle": "M",
+    "foto": "./img/pantalones/negro.jpg"
+  },
+  {
+    "id": 23,
+    "nombre": "Pantalon Cargo",
+    "tipo": "pantalon",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "10.500",
+    "talle": "L",
+    "foto": "./img/pantalones/streetwear.jpg"
+  },
+  {
+    "id": 24,
+    "nombre": "Pantalon Cargo",
+    "tipo": "pantalon",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "8.800",
+    "talle": "XL",
+    "foto": "./img/pantalones/rojo-negro.jpg"
+  },
+  {
+    "id": 25,
+    "nombre": "Pantalon Cargo",
+    "tipo": "pantalon",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "7.840",
+    "talle": "XL",
+    "foto": "./img/pantalones/blanco-negro.jpg"
+  },
+  {
+    "id": 26,
+    "nombre": "Pantalon Cargo",
+    "tipo": "pantalon",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "7.200",
+    "talle": "XL",
+    "foto": "./img/pantalones/mujer.jpg"
+  },
+  {
+    "id": 27,
+    "nombre": "Pantalon Cargo",
+    "tipo": "pantalon",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "5.300",
+    "talle": "XL",
+    "foto": "./img/pantalones/concadenas.jpg"
+  },
+  {
+    "id": 28,
+    "nombre": "Pantalon Cargo",
+    "tipo": "pantalon",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "6.500",
+    "talle": "XL",
+    "foto": "./img/pantalones/rosa.jpg"
+  },
+  {
+    "id": 29,
+    "nombre": "Pantalon Cargo",
+    "tipo": "pantalon",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "7.500",
+    "talle": "XL",
+    "foto": "./img/pantalones/naranja.jpg"
+  },
+  {
+    "id": 30,
+    "nombre": "Pantalon Cargo",
+    "tipo": "pantalon",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "9.840",
+    "talle": "XL",
+    "foto": "./img/pantalones/amarillo.jpg"
+  },
+
+
+  {
+    "id": 31,
+    "nombre": "remeras",
+    "tipo": "remera",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "10.200",
+    "talle": "s",
+    "foto": "./img/remeras/big.jpg"
+  },
+  {
+    "id": 32,
+    "nombre": "remeras",
+    "tipo": "remera",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "8.300",
+    "talle": "M",
+    "foto": "./img/remeras/remera.jpg"
+  },
+  {
+    "id": 33,
+    "nombre": "remeras",
+    "tipo": "remera",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "3.300",
+    "talle": "L",
+    "foto": "./img/remeras/cyber.jpg"
+  },
+  {
+    "id": 34,
+    "nombre": "remeras",
+    "tipo": "remera",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "$4.800",
+    "talle": "XL",
+    "foto": "./img/remeras/remera-blanca.jpg"
+  },
+  {
+    "id": 35,
+    "nombre": "remeras",
+    "tipo": "remera",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "14.840",
+    "talle": "XL",
+    "foto": "./img/remeras/godface.jpg"
+  },
+  {
+    "id": 36,
+    "nombre": "remeras",
+    "tipo": "remera",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "14.200",
+    "talle": "XL",
+    "foto": "./img/remeras/black-shadow.jpg"
+  },
+  {
+    "id": 37,
+    "nombre": "remeras",
+    "tipo": "remera",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "5.300",
+    "talle": "XL",
+    "foto": "./img/remeras/manteca1.jpg"
+  },
+  {
+    "id": 38,
+    "nombre": "remeras",
+    "tipo": "remera",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "13.500",
+    "talle": "XL",
+    "foto": "./img/remeras/whatch.jpg"
+  },
+  {
+    "id": 39,
+    "nombre": "remeras",
+    "tipo": "remera",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "10.800",
+    "talle": "XL",
+    "foto": "./img/remeras/free-youth.jpg"
+  },
+  {
+    "id": 40,
+    "nombre": "remeras",
+    "tipo": "remera",
+    "cantidad": 10,
+    "desc": "las mas facheras de jazstina",
+    "precio": "17.840",
+    "talle": "XL",
+    "foto": "./img/remeras/poison-blanco1poison.jpg"
+  }
+]

@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(0deg, rgba(30, 124, 181, 1) 33%, rgba(10, 28, 38, 1) 100%);
+    align-items: center;
+    padding: 20px 10%;
+    box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.src {
+    color: black;
+    margin: 10px;
+    width: 200px;
+}
+
+h1 {
+    color: royalblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#boton-carrito {
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px 20px;
+    transition: all .3s;
+}
+
+#boton-carrito:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+#boton-carrito:focus {
+    outline: none;
+}
+
+#contenedor-productos {
+    max-width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.producto {
+    max-width: 20%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.precioProducto {
+    font-weight: 700;
+}
+
+.boton-agregar {
+    background-color: royalblue;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+    border: none;
+}
+
+.boton-agregar:hover {
+    cursor: pointer;
+}
+
+.boton-agregar:focus {
+    outline: none;
+}
+
+.modal-contenedor {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-carrito {
+    position: relative;
+    background-color: white;
+    min-width: 500px;
+    padding: 20px;
+    margin-top: -100%;
+    transition: all .5s;
+}
+
+.modal-active .modal-carrito {
+    margin-top: 0;
+}
+
+.modal-carrito h3 {
+    color: royalblue;
+    padding-bottom: 5px;
+}
+
+.modal-carrito #carritoCerrar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    color: royalblue;
+    border: none;
+    background-color: white;
+}
+
+.modal-carrito #carritoCerrar:hover {
+    cursor: pointer;
+}
+
+.modal-carrito #carritoCerrar:focus {
+    outline: none;
+}
+
+.modal-carrito .precioProducto {
+    padding-top: 10px;
+
+}
+
+.productoEnCarrito {
+    border-left: 5px solid lightblue;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productoEnCarrito:hover {
+    border-left: 5px solid royalblue;
+}
+
+.boton-eliminar {
+    background-color: white;
+    color: red;
+    border: none;
+    font-size: 20px;
+}
+
+.boton-eliminar:hover {
+    cursor: pointer;
+}
+
+.boton-eliminar:focus {
+    outline: none;
+}
+
+#filtroTalle {
+    margin: 27px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.img {
+    border: solid 1px black;
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 100px;
+}
+
+.link {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.menu {
+    margin: 1rem;
+    text-decoration: none;
+    border-radius: 15px;
+    color: white;
+}
+
+.menu2 {
+    text-decoration: none;
+    border-radius: 15px;
+    margin: -30px;
+    padding: 1rem;
+    color: black;
+}
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: space-around
+}
+
+/* contacto */
+
+.form-label {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.textAreaContacto {
+    margin: 2rem;
+    display: flex;
+
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#exampleFormControlInput1 {
+    display: block;
+    width: 400px;
+    height: 50px;
+}
+
+#exampleFormControlInput2 {
+    display: block;
+    width: 400px;
+    height: 50px;
+}
+
+#textArea {
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+    margin-top: 1.5rem;
+}
+
+
+.maps {
+    margin-left: 4rem;
+    border: solid 5px black;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.h1 {
+    font-size: 2.5rem;
+    border-bottom: solid 5px black;
+    display: flex;
+    color: white;
+}
+
+.mapa {
+    width: 600px;
+    height: 455px;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/contacto.jpg);
+}
+
+
+/* footer */
+.footer {
+    display: flex;
+    align-items: center;
+    grid-area: footer;
+    background-color: #121315;
+    font-size: 16px;
+    padding: 1rem 1rem;
+}
+
+
+.row.primario {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+    color: white;
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.4em;
+    white-space: nowrap;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    padding: 1em 15px 15px 50px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+
+}
+
+
+div.redes {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+
+
+.copyright {
+    padding: 0.3em 1em;
+    background-color: #25262e;
+}
+
+p {
+    font-size: 0.9em;
+    text-align: left;
+}
+
+#redesFooter {
+    color: white;
+}
+
+.botonFooter {
+    border-radius: 30px;
+    height: 40px;
+    width: 85px;
+    background-color: #1884a5;
+    color: #ffffff;
+}
+
+.gmail {
+    width: 200px;
+}
+
+#lock {
+    font-size: 15px;
+}
+
+
+.mainLogin {
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.bodyLogin {
+    background-image: url(https://images.unsplash.com/photo-1488409688217-e6053b1e8f42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80);
+}
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.checkbox {
+    color: black;
+}
+
+.loginImg {
+    border-radius: 150px;
+}
+
+
+.botonLogin {
+    width: 200px;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+div .formLogin i {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+.red {
+    color: #c99;
+}
+
+.green {
+    color: #9c9;
+}
+
+.main {
+    background: linear-gradient(0deg, rgba(30, 124, 181, 1) 33%, rgba(10, 28, 38, 1) 100%);
+}
