@@ -11,6 +11,7 @@ const precioTotal = document.getElementById("precioTotal");
 const cantidadTotal = document.getElementById("cantidadTotal");
 
 let carrito = [];
+let carrito2 = [];
 
 document.addEventListener("DOMContentLoaded", () => {
   if (localStorage.getItem("carrito")) {
