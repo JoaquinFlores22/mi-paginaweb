@@ -20,10 +20,18 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 botonVaciar.addEventListener("click", () => {
+
+  carrito.forEach((item) =>
+  
+  item.cantidad = 1)
+  
   carrito.length = 0;
+  
   actualizarCarrito();
-  localStorage.setItem("carrito", JSON.stringify(carrito));
-});
+  
+  localStorage.setItem( "carrito" , JSON.stringify(carrito));
+  
+  });
 
 let url = "../stockjson.json";
 let stock = [];
@@ -55,15 +63,22 @@ const agregarAlCarrito = (prodId) => {
 };
 
 const eliminarDelCarrito = (prodId) => {
+
   const item = carrito.find((prod) => prod.id === prodId);
-
+  
   const indice = carrito.indexOf(item);
-
+  
+  item.cantidad = 1;
+  
   carrito.splice(indice, 1);
+  
   actualizarCarrito();
+  
   localStorage.setItem("carrito", JSON.stringify(carrito));
+  
   console.log(carrito);
-};
+  
+  };
 
 const actualizarCarrito = () => {
   contenedorCarrito.innerHTML = "";

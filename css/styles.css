@@ -550,6 +550,14 @@ div .formLogin i {
 
 }
 
+@media(min-width:375px){
+    #buscadorIcono {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -270px;
+    }
+}
+
 @media (min-width:425px) {
     #buscadorIcono {
         position: absolute;
@@ -590,8 +598,31 @@ div .formLogin i {
 }
 
 @media (min-width:768px) {
-    #contacto .nav {}
-
+    #row {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .mapa {
+        width: 759px;
+        height: 800px;
+    }
+    #exampleFormControlInput1 {
+        display: block;
+        width: 750px;
+        height: 50px;
+    }
+    #exampleFormControlInput2 {
+        display: block;
+        width: 750px;
+        height: 50px;
+    }
+    #textArea {
+        border-radius: 10px;
+        height: 200px;
+        width: 750px;
+        margin-top: 1.5rem;
+    }
     #buscadorIcono {
         position: absolute;
         margin-top: 30px;
