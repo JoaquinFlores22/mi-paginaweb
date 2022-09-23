@@ -219,10 +219,17 @@ p {
 }
 
 .menu {
+    padding: 10px;
     margin: 1rem;
     text-decoration: none;
     border-radius: 15px;
     color: white;
+}
+
+.menu:hover {
+    background-color: white;
+    transition: 0.5s;
+    color: black;
 }
 
 .menu2 {
@@ -306,6 +313,11 @@ p {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/contacto.jpg);
 }
 
+#buscadorIcono {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -810px;
+}
 
 /* footer */
 .footer {
@@ -495,9 +507,63 @@ div .formLogin i {
         flex-wrap: nowrap;
         flex-direction: column;
     }
+
+    #buscadorIcono {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -240px;
+    }
+
+    #row {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    #exampleFormControlInput1 {
+        display: block;
+        width: 310px;
+        height: 50px;
+    }
+
+    #exampleFormControlInput2 {
+        display: block;
+        width: 310px;
+        height: 50px;
+    }
+
+    #textArea {
+        border-radius: 10px;
+        height: 200px;
+        width: 311px;
+        margin-top: 1.5rem;
+    }
+    .maps{
+        margin-left: 1px;
+    }
+    .mapa{
+        width: 310px;
+        height: 455px;
+    }
+
+}
+
+@media (min-width:425px) {
+    #buscadorIcono {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -290px
+    }
 }
 
 @media (min-width:768px) {
+    #contacto .nav {}
+
+    #buscadorIcono {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -523px;
+    }
 
     .link {
         display: flex;
@@ -507,6 +573,14 @@ div .formLogin i {
 
     link {
         margin: 2rem;
+    }
+
+    .src {
+        width: 300px;
+    }
+
+    #boton-carrito {
+        font-size: 40px;
     }
 
     .menu2 {
@@ -524,6 +598,30 @@ div .formLogin i {
         justify-content: space-between;
     }
 
+    .producto {
+        padding: 13px;
+        margin: 20px;
+        margin-bottom: 5px;
+        max-width: 200px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
 
 }
 
+@media(min-width:1024px) {
+    #buscadorIcono {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -650px;
+    }
+}
+
+@media (min-width:1440px) {
+    #buscadorIcono {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -860px;
+    }
+}
