@@ -634,6 +634,14 @@ div .formLogin i {
     }
 }
 
+@media (min-width:425px){
+    h3 {
+        text-align: left;
+        font-size: 1.0em;
+        white-space: nowrap;
+    }
+}
+
 @media (min-width:768px) {
     #row {
         display: flex;
@@ -720,6 +728,26 @@ div .formLogin i {
         justify-content: flex-end;
     }
 
+    #redesFooter {
+        color: white;
+        font-size: 40px;
+    }
+
+    .column.subscribe {
+        display: flex;
+    }
+
+    .column.links {
+        display: none;
+    }
+
+    li i {
+        margin: 1rem;
+    }
+
+    .gmail {
+        width: 349px;
+    }
 
 }
 
@@ -735,6 +763,27 @@ div .formLogin i {
         position: absolute;
         margin-top: 30px;
         margin-left: -650px;
+    }
+
+    #redesFooter {
+        color: white;
+        font-size: 40px;
+    }
+
+    .column.subscribe {
+        display: flex;
+    }
+
+    .column.links {
+        display: flex;
+    }
+
+    li i {
+        margin: 1rem;
+    }
+
+    .gmail {
+        width: 320px;
     }
 }
 
@@ -754,6 +803,26 @@ div .formLogin i {
         justify-content: space-evenly;
     }
 
+    #redesFooter {
+        color: white;
+        font-size: 40px;
+    }
+
+    .column.subscribe {
+        display: flex;
+    }
+
+    .column.links {
+        display: flex;
+    }
+
+    li i {
+        margin: 1rem;
+    }
+
+    .gmail {
+        width: 349px;
+    }
 }
 
 @media (min-width:1536px) {
@@ -763,5 +832,25 @@ div .formLogin i {
         margin-left: -900px;
     }
 
+    #redesFooter {
+        color: white;
+        font-size: 40px;
+    }
+
+    .column.subscribe {
+        display: flex;
+    }
+
+    .column.links {
+        display: flex;
+    }
+
+    li i {
+        margin: 1rem;
+    }
+
+    .gmail {
+        width: 349px;
+    }
 
 }

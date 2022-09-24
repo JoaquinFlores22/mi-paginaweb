@@ -121,7 +121,7 @@ buscar.addEventListener(`keydown`, (e) => {
       return true;
     }
 
-    return producto.tipo.includes(e.target.value)||producto.nombre.includes(e.target.value);
+    return producto.tipo.includes(e.target.value)||producto.nombre.includes(e.target.value) ;
   });
   mostrarProductos(filterstock);
 });
