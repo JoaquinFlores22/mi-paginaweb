@@ -567,6 +567,11 @@ div .formLogin i {
         margin-top: 30px;
         margin-left: -290px
     }
+    h3 {
+        text-align: left;
+        font-size: 1.1em;
+        white-space: nowrap;
+    }
 
     #row {
         display: flex;
@@ -600,6 +605,14 @@ div .formLogin i {
     .mapa {
         width: 413px;
         height: 800px;
+    }
+    .producto {
+        padding: 10px;
+        margin: 10px;
+        margin-bottom: 5px;
+        max-width: 120px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
     }
 }
 
