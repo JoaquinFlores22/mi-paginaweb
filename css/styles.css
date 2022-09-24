@@ -559,11 +559,13 @@ div .formLogin i {
         margin-top: 30px;
         margin-left: -270px;
     }
+
     h3 {
         text-align: left;
         font-size: 1.1em;
         white-space: nowrap;
     }
+
     .producto {
         padding: 10px;
         margin: 10px;
@@ -571,62 +573,65 @@ div .formLogin i {
         max-width: 165px;
         flex-wrap: wrap;
         justify-content: flex-end;
-}
-
-@media (min-width:425px) {
-    #buscadorIcono {
-        position: absolute;
-        margin-top: 30px;
-        margin-left: -290px
-    }
-    h3 {
-        text-align: left;
-        font-size: 1.1em;
-        white-space: nowrap;
     }
 
-    #row {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-    }
+    @media (min-width:425px) {
+        #buscadorIcono {
+            position: absolute;
+            margin-top: 30px;
+            margin-left: -290px
+        }
 
-    #exampleFormControlInput1 {
-        display: block;
-        width: 420px;
-        height: 50px;
-    }
+        h3 {
+            text-align: left;
+            font-size: 1.1em;
+            white-space: nowrap;
+        }
 
-    #exampleFormControlInput2 {
-        display: block;
-        width: 420px;
-        height: 50px;
-    }
+        #row {
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+        }
 
-    #textArea {
-        border-radius: 10px;
-        height: 200px;
-        width: 420px;
-        margin-top: 1.5rem;
-    }
+        #exampleFormControlInput1 {
+            display: block;
+            width: 420px;
+            height: 50px;
+        }
 
-    .maps {
-        margin-left: 1px;
-    }
+        #exampleFormControlInput2 {
+            display: block;
+            width: 420px;
+            height: 50px;
+        }
 
-    .mapa {
-        width: 413px;
-        height: 800px;
-    }
-    .producto {
-        padding: 10px;
-        margin: 10px;
-        margin-bottom: 5px;
-        max-width: 120px;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-    }
+        #textArea {
+            border-radius: 10px;
+            height: 200px;
+            width: 420px;
+            margin-top: 1.5rem;
+        }
 
+        .maps {
+            margin-left: 1px;
+        }
+
+        .mapa {
+            width: 413px;
+            height: 800px;
+        }
+
+        .producto {
+            padding: 10px;
+            margin: 10px;
+            margin-bottom: 5px;
+            max-width: 120px;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+
+    }
 }
 
 @media (min-width:768px) {
@@ -634,6 +639,13 @@ div .formLogin i {
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
+    }
+
+    #contenedor-productos {
+        max-width: 755px;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
     }
 
     .mapa {
@@ -712,6 +724,13 @@ div .formLogin i {
 }
 
 @media(min-width:1024px) {
+    #contenedor-productos {
+        max-width: 1010px;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
     #buscadorIcono {
         position: absolute;
         margin-top: 30px;
@@ -725,4 +744,24 @@ div .formLogin i {
         margin-top: 32px;
         margin-left: -855px;
     }
+}
+
+@media (min-width:1440px) {
+    #contenedor-productos {
+        max-width: 1420px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media (min-width:1536px) {
+    #buscadorIcono {
+        position: absolute;
+        margin-top: 32px;
+        margin-left: -900px;
+    }
+
+
 }
