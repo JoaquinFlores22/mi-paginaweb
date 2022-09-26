@@ -562,7 +562,6 @@ div .formLogin i {
     h3 {
         text-align: left;
         font-size: 1.1em;
-        white-space: nowrap;
     }
 
     .producto {
@@ -584,7 +583,6 @@ div .formLogin i {
         h3 {
             text-align: left;
             font-size: 1.1em;
-            white-space: nowrap;
         }
 
         #row {
@@ -637,7 +635,7 @@ div .formLogin i {
     h3 {
         text-align: left;
         font-size: 1.0em;
-        white-space: nowrap;
+        flex-wrap: wrap;
     }
 }
 
